@@ -6,7 +6,7 @@ const { select } = SqlBricks
 
 const unitMap: { [x: string]: string } = {
   hour: '%Y-%m-%d %H',
-  day: '%Y-%m-%d',
+  day: '%Y-%m-%d %H',
 }
 
 const ViewsQuerySchema = QuerySchema.extend({
