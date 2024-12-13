@@ -11,8 +11,8 @@ const endAt = inject('endAt')
 
 const OneDay = 24 * 60 * 60 // 1 day in seconds
 function getUnit(startAt, endAt) {
-  if (startAt && endAt && endAt - startAt <= OneDay)
-    return 'hour'
+//  if (startAt && endAt && endAt - startAt <= OneDay)
+ //   return 'hour'
 
   return 'day'
 }
