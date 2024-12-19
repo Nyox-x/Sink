@@ -17,6 +17,9 @@ export const QuerySchema = z.object({
   browserType: z.string().optional(),
   device: z.string().optional(),
   deviceType: z.string().optional(),
+  deviceid: z.string().optional(),
+  ip: z.string().optional(),
+  originip: z.string().optional(),
   limit: z.coerce.number().int().safe().default(500),
 })
 
