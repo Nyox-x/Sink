@@ -34,6 +34,7 @@ export const blobsMap = {
   blob13: 'browserType',
   blob14: 'device',
   blob15: 'deviceType',
+  blob16: 'deviceid',
 } as const
 
 export type BlobsMap = typeof blobsMap
