@@ -5,8 +5,8 @@ import { z } from 'zod'
 const { select } = SqlBricks
 
 const unitMap: { [x: string]: string } = {
-  hour: '%Y-%m-%d %H',
-  day: '%Y-%m-%d',
+  hour: '%Y-%m-%d-%R',
+  day: '%Y-%m-%d-%R',
 }
 
 const ViewsQuerySchema = QuerySchema.extend({
