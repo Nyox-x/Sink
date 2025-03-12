@@ -15,7 +15,7 @@
     />
     <DashboardMetricsGroup
       class="lg:col-span-6"
-      :tabs="['device', 'deviceType']"
+      :tabs="['device', 'deviceType', 'deviceid', 'ip']"
     />
     <DashboardMetricsGroup
       class="lg:col-span-6"
