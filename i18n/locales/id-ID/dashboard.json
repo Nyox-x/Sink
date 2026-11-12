@@ -68,6 +68,7 @@
       "timezone": "Zona Waktu",
       "device": "Perangkat",
       "deviceType": "Tipe Perangkat",
+      "ip": "IP",
       "os": "OS",
       "browser": "Browser",
       "browserType": "Tipe Browser"

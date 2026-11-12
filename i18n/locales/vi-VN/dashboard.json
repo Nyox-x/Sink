@@ -68,6 +68,7 @@
       "timezone": "Múi giờ",
       "device": "Thiết bị",
       "deviceType": "Loại thiết bị",
+      "ip": "IP",
       "os": "Hệ điều hành",
       "browser": "Trình duyệt",
       "browserType": "Loại trình duyệt"

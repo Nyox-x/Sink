@@ -68,6 +68,7 @@
       "timezone": "Timezone",
       "device": "Device",
       "deviceType": "Device Type",
+      "ip": "IP",
       "os": "OS",
       "browser": "Browser",
       "browserType": "Browser Type"

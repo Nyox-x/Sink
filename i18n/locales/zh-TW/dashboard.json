@@ -68,6 +68,7 @@
       "timezone": "時區",
       "device": "裝置",
       "deviceType": "裝置類型",
+      "ip": "IP",
       "os": "作業系統",
       "browser": "瀏覽器",
       "browserType": "瀏覽器類型"

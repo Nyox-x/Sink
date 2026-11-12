@@ -5,7 +5,7 @@ const tabs = {
   location: ['country', 'region', 'city'],
   referer: ['referer', 'slug'],
   time: ['language', 'timezone'],
-  device: ['device', 'deviceType','deviceid','ip'],
+  device: ['device', 'deviceType', 'ip'],
   browser: ['os', 'browser', 'browserType'],
 } as const
 

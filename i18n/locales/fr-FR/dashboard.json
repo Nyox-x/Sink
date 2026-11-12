@@ -68,6 +68,7 @@
       "timezone": "Fuseau horaire",
       "device": "Appareil",
       "deviceType": "Type d'appareil",
+      "ip": "IP",
       "os": "OS",
       "browser": "Navigateur",
       "browserType": "Type de navigateur"

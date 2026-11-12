@@ -68,6 +68,7 @@
       "timezone": "시간대",
       "device": "기기",
       "deviceType": "기기 유형",
+      "ip": "IP",
       "os": "OS",
       "browser": "브라우저",
       "browserType": "브라우저 유형"

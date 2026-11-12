@@ -35,7 +35,11 @@ export function longDate(unix = 0, locale?: string) {
 }
 
 export function shortTime(unix = 0, locale?: string) {
-  return new Intl.DateTimeFormat(locale, { timeStyle: 'short' }).format(unix * 1000)
+  return new Intl.DateTimeFormat(locale, {
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+  }).format(unix * 1000)
 }
 
 export function date2unix(dateValue: DateValue | Date, type?: 'start' | 'end') {
